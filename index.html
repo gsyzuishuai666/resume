@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>管思宇 · 个人简历 | 数据采集 / Vibecoding / AI 应用</title>
+<meta name="description" content="管思宇的个人简历。PPE（哲学·政治·经济学）专业背景，正在学习 Vibecoding，积极拥抱 AI。掌握数据采集（A股资金流自动化）、Agent 工作流、网站开发，独立完成多个项目。">
+<meta name="keywords" content="管思宇, 个人简历, PPE, Vibecoding, 数据采集, Agent, Coze, IMA, 简历网站">
+<meta name="author" content="管思宇">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://guan-siyu.github.io/resume/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="管思宇 · 个人简历">
+<meta property="og:description" content="PPE 专业 · Vibecoding · 拥抱 AI。数据采集 / Agent 工作流 / 网站开发，独立完成多个项目。">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="管思宇 · 个人简历">
+<meta name="twitter:description" content="PPE 专业 · Vibecoding · 拥抱 AI。数据采集 / Agent 工作流 / 网站开发，独立完成多个项目。">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--cream:#0a0a0a;--terracotta:#4fd1c5;--brown:#ffffff;--text:#d9d9d9;--text-light:#8a8a8a;--white:#fff;--card:#141414;--border:#2a2a2a;--shadow:0 2px 20px rgba(0,0,0,.4);--radius:12px}
+html{scroll-behavior:smooth}
+body{font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",sans-serif;background:var(--cream);color:var(--text);line-height:1.8}
+.nav{position:fixed;top:0;left:0;right:0;z-index:900;display:flex;align-items:center;justify-content:space-between;padding:10px 26px;background:rgba(8,8,8,.85);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(79,209,197,.16)}
+.nav-brand{font-size:17px;font-weight:700;color:var(--brown);letter-spacing:2px;text-decoration:none}
+.nav-brand .dot{color:var(--terracotta)}
+.nav-links{display:flex;gap:4px}
+.nav-links a{color:var(--text-light);text-decoration:none;font-size:14px;letter-spacing:1px;padding:6px 16px;border-radius:999px;transition:color .15s,background .15s}
+.nav-links a:hover{color:#fff;background:rgba(79,209,197,.12)}
+.nav-links a.active{color:var(--terracotta);background:rgba(79,209,197,.16);font-weight:600}
+.nav-links a.cta{color:#062628;background:linear-gradient(135deg,#4fd1c5,#2fb3a6);font-weight:700;box-shadow:0 2px 10px rgba(79,209,197,.35)}
+.nav-links a.cta:hover{color:#041c1b;background:linear-gradient(135deg,#63dcd1,#3cc2b5);box-shadow:0 4px 16px rgba(79,209,197,.5)}
+header{background:linear-gradient(150deg,#062628,#0e4f57,#1f6a72,#0c3d44,#254a68,#1f4b52,#062628);background-size:300% 300%;padding:92px 24px 56px;text-align:center;position:relative;overflow:hidden;animation:bgFlow 9s ease-in-out infinite}
+header::before{content:"";position:absolute;top:-60px;right:-20px;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(46,124,135,.35),transparent 70%)}
+header::after{content:"";position:absolute;bottom:-80px;left:-30px;width:240px;height:240px;border-radius:50%;background:radial-gradient(circle,rgba(14,79,87,.5),transparent 70%)}
+header .glow{position:absolute;top:20%;left:12%;width:120px;height:120px;border-radius:50%;background:radial-gradient(circle,rgba(126,164,170,.18),transparent 70%)}
+.avatar{width:88px;height:88px;border-radius:50%;background:var(--terracotta);display:inline-flex;align-items:center;justify-content:center;margin-bottom:16px;position:relative;z-index:1;overflow:hidden;border:3px solid rgba(255,255,255,.35);box-shadow:0 0 24px rgba(46,124,135,.45)}
+.avatar img{width:100%;height:100%;object-fit:cover;display:block}
+header h1{font-size:38px;font-weight:700;letter-spacing:2px;position:relative;z-index:1;filter:drop-shadow(0 2px 14px rgba(0,0,0,.35));background:linear-gradient(90deg,#fff 0%,#4fd1c5 25%,#fff 50%,#4fd1c5 75%,#fff 100%);background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;animation:titleShimmer 4s linear infinite}
+@keyframes titleShimmer{0%{background-position:0% center}100%{background-position:200% center}}
+@keyframes bgFlow{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+header .tagline{display:inline-block;margin-top:10px;font-size:14px;letter-spacing:3px;color:#b8d3d6;position:relative;z-index:1;padding:6px 18px;border:1px solid rgba(126,164,170,.4);border-radius:999px;background:rgba(14,79,87,.25)}
+header .tagline .tw{display:inline-block;opacity:0;transform:translateY(14px);animation:wordUp .45s cubic-bezier(.22,1.35,.4,1) forwards;animation-delay:calc(var(--i)*.12s)}
+@keyframes wordUp{0%{opacity:0;transform:translateY(14px)}100%{opacity:1;transform:translateY(0)}}
+header .hero-cta{margin-top:22px;position:relative;z-index:1}
+header .hero-cta a{display:inline-block;padding:10px 28px;border-radius:999px;font-size:14px;letter-spacing:1px;color:#062628;background:linear-gradient(135deg,#7ea4aa,#9fc2c6);text-decoration:none;font-weight:600;transition:transform .15s,box-shadow .15s;box-shadow:0 4px 18px rgba(46,124,135,.4)}
+header .hero-cta a:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(46,124,135,.55)}
+.container{max-width:900px;margin:0 auto;padding:40px 24px}
+.section{margin-bottom:40px;scroll-margin-top:66px}
+.section-title{font-size:26px;font-weight:700;color:var(--brown);margin-bottom:24px;display:flex;align-items:center;gap:0;letter-spacing:1px}
+.section-title::before{content:"";width:5px;height:26px;background:var(--terracotta);border-radius:3px;margin-right:12px;flex-shrink:0}
+.section-title .ch{display:inline-block;opacity:0;transform:translateY(28px) scale(.6) rotate(8deg)}
+.section-title.anim .ch{animation:chPop .62s cubic-bezier(.22,1.61,.36,1) forwards}
+.section-title.anim .ch:nth-child(2){animation-delay:.05s}
+.section-title.anim .ch:nth-child(3){animation-delay:.10s}
+.section-title.anim .ch:nth-child(4){animation-delay:.15s}
+.section-title.anim .ch:nth-child(5){animation-delay:.20s}
+.section-title.anim .ch:nth-child(6){animation-delay:.25s}
+.section-title.anim .ch:nth-child(7){animation-delay:.30s}
+.section-title.anim .ch:nth-child(8){animation-delay:.35s}
+.section-title.anim .ch:nth-child(9){animation-delay:.40s}
+@keyframes chPop{0%{opacity:0;transform:translateY(28px) scale(.6) rotate(8deg)}60%{opacity:1;transform:translateY(-6px) scale(1.12) rotate(-2deg)}100%{opacity:1;transform:translateY(0) scale(1) rotate(0deg)}}
+.card{background:var(--card);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow);border:1px solid var(--border)}
+@property --glow-angle{syntax:"<angle>";initial-value:0deg;inherits:false}
+@keyframes glowSpin{to{--glow-angle:360deg}}
+.border-glow{position:relative}
+.border-glow::before{content:"";position:absolute;inset:0;border-radius:inherit;padding:1.5px;pointer-events:none;background:conic-gradient(from var(--glow-angle),transparent 0deg,rgba(79,209,197,0) 55deg,rgba(79,209,197,.9) 100deg,rgba(79,209,197,0) 145deg,transparent 360deg);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);mask-composite:exclude;animation:glowSpin 4s linear infinite}
+.jump{opacity:.25;transition:opacity .3s,transform .3s}
+.jump.wide{opacity:.15;transition:opacity .3s,transform .3s}
+.jump.bump{opacity:1;transform:translateY(-6px);transition:none}
+.jump.wide.bump{opacity:1;transform:translateY(-10px);transition:none}
+@keyframes jumpFade{0%{opacity:.25}100%{opacity:1}}
+.intro-layout{display:grid;grid-template-columns:280px 1fr;gap:28px;align-items:start}
+.intro-list{display:flex;flex-direction:column;gap:14px}
+.intro-item{display:flex;align-items:center;gap:10px;font-size:16px;color:#fff}
+/* 新增内容模块 */
+.bio{font-size:16px;color:#e0e0e0;line-height:2}
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:6px}
+.stat-item{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:18px 12px;text-align:center}
+.stat-num{font-size:26px;font-weight:700;color:var(--terracotta)}
+.stat-label{font-size:12px;color:#a5a5a5;margin-top:4px}
+.timeline{margin-top:6px;border-left:2px solid rgba(79,209,197,.4);padding-left:22px;display:flex;flex-direction:column;gap:20px}
+.tl-item{position:relative}
+.tl-item::before{content:"";position:absolute;left:-29px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--terracotta);box-shadow:0 0 8px rgba(79,209,197,.6)}
+.tl-date{font-size:14px;color:var(--terracotta);font-weight:600}
+.tl-text{font-size:15px;color:#e0e0e0}
+.tag-cloud{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.tag{font-size:13px;color:var(--terracotta);background:rgba(79,209,197,.1);border:1px solid rgba(79,209,197,.3);border-radius:999px;padding:5px 14px}
+.tag:hover{background:rgba(79,209,197,.2)}
+.intro-icon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.icon-male{background:#1f3d42;color:#4fd1c5}
+.icon-edu{background:#1a2e3a;color:#7ec8e3}
+.icon-major{background:#173a3f;color:#4fd1c5}
+.icon-code{background:#1a3040;color:#5fb4e0}
+.icon-ai{background:#1a332b;color:#66c896}
+.icon-social{background:#1d3538;color:#4fd1c5}
+
+.cert-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px;margin-top:6px}
+.cert-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:transform .15s,box-shadow .2s;cursor:pointer;text-decoration:none;color:inherit;display:block}
+.cert-card:hover{transform:translateY(-2px);box-shadow:0 0 0 1px rgba(79,209,197,.7),0 0 18px rgba(79,209,197,.45),0 10px 32px rgba(79,209,197,.22)}
+.cert-thumb{width:100%;height:110px;object-fit:cover;display:block;background:linear-gradient(135deg,#1a2a2e,#16262a);transition:transform .35s ease}
+.cert-card:hover .cert-thumb{transform:scale(1.08)}
+.cert-label{padding:8px 10px;font-size:13px;color:#cfcfcf;text-align:center;font-weight:500}
+
+.skill-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.skill-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:18px;transition:transform .15s,box-shadow .2s}
+.skill-card:hover{transform:translateY(-2px);box-shadow:0 0 0 1px rgba(79,209,197,.65),0 0 16px rgba(79,209,197,.4),0 8px 26px rgba(79,209,197,.2)}
+.skill-card h4{font-size:16px;color:var(--brown);margin-bottom:4px}
+.skill-card p{font-size:13px;color:#a5a5a5}
+
+.showcase-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.showcase-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:transform .15s,box-shadow .2s;text-decoration:none;color:inherit;display:block}
+.showcase-card:hover{transform:translateY(-3px);box-shadow:0 0 0 1px rgba(79,209,197,.7),0 0 20px rgba(79,209,197,.5),0 12px 36px rgba(79,209,197,.24)}
+.showcase-thumb{width:100%;height:140px;object-fit:cover;display:block;background:linear-gradient(135deg,#1a2a2e,#16262a);transition:transform .35s ease}
+.showcase-card:hover .showcase-thumb{transform:scale(1.05)}
+.video-card video{width:100%;max-height:420px;height:auto;object-fit:contain;display:block;background:#000;cursor:pointer}
+.video-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:transform .15s,box-shadow .2s}
+.video-card:hover{transform:translateY(-3px);box-shadow:0 0 0 1px rgba(79,209,197,.7),0 0 20px rgba(79,209,197,.5),0 12px 36px rgba(79,209,197,.24)}
+.showcase-body{padding:16px 20px 20px}
+.showcase-body h4{font-size:16px;color:var(--brown);margin-bottom:4px}
+.showcase-body p{font-size:13px;color:#a5a5a5}
+
+footer{text-align:center;padding:32px 24px;color:var(--text-light);font-size:13px;border-top:1px solid var(--border);margin-top:24px}
+footer a{color:var(--terracotta);text-decoration:none}
+@media(max-width:600px){.intro-layout{grid-template-columns:1fr}.skill-grid{grid-template-columns:1fr}.showcase-grid{grid-template-columns:1fr}.cert-grid{grid-template-columns:repeat(2,1fr)}.nav{padding:8px 14px}.nav-links a{padding:6px 10px;font-size:13px}}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a class="nav-brand" href="#top">管思宇<span class="dot">.</span></a>
+  <div class="nav-links">
+    <a href="#about">自我介绍</a>
+    <a href="#timeline">成长历程</a>
+    <a href="#skills">专业技能</a>
+    <a class="cta" href="#contact">联系我</a>
+  </div>
+</nav>
+
+<header>
+  <span class="glow"></span>
+  <div class="avatar"><img src="B8SqDYQMClwJDaZ.jpg" width="88" height="88" alt="管思宇头像"></div>
+  <h1>管思宇</h1>
+  <p class="tagline"><span class="tw" style="--i:0">PPE</span><span class="tw" style="--i:1">&nbsp;·&nbsp;</span><span class="tw" style="--i:2">Vibecoding</span><span class="tw" style="--i:3">&nbsp;·&nbsp;</span><span class="tw" style="--i:4">拥抱</span><span class="tw" style="--i:5">&nbsp;</span><span class="tw" style="--i:6">AI</span></p>
+  <div class="hero-cta"><a href="#skills">查看我的项目 ↓</a></div>
+</header>
+
+<div class="container">
+
+  <div class="section" id="about">
+    <div class="section-title anim"><span class="ch">自</span><span class="ch">我</span><span class="ch">介</span><span class="ch">绍</span></div>
+    <div class="card border-glow">
+      <div class="intro-layout">
+        <div class="intro-list">
+          <div class="intro-item jump"><div class="intro-icon icon-edu">&#x1F393;</div>教育：国际关系学院（UIR）本科</div>
+          <div class="intro-item jump"><div class="intro-icon icon-major">&#x1F4DA;</div>专业：PPE（哲学·政治·经济学）</div>
+          <div class="intro-item jump"><div class="intro-icon icon-code">&#x1F4BB;</div>正在学习：Vibecoding</div>
+          <div class="intro-item jump"><div class="intro-icon icon-ai">&#x1F916;</div>探索 AI 工具链，持续自学进阶</div>
+        </div>
+        <p class="bio jump">我是一名 PPE（哲学·政治·经济学）专业学生，也是一位自学的 <span style="color:var(--terracotta);font-weight:600">Vibecoder</span>——用 AI 工具链把想法快速变成能用、能看的东西。把"没学过"当成起点，靠自学摸索搭建了数据自动化、智能体与网页应用。享受用 AI 和代码探索世界的过程。</p>
+      </div>
+      <div class="intro-item jump" style="margin-top:18px"><div class="intro-icon icon-social">&#x1F91D;</div>爱好社交，喜欢通过交流碰撞新想法</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title anim"><span class="ch">数</span><span class="ch">字</span><span class="ch">亮</span><span class="ch">点</span></div>
+    <div class="stats-row">
+      <div class="stat-item jump border-glow"><div class="stat-num">9200+</div><div class="stat-label">沉淀数据条数</div></div>
+      <div class="stat-item jump border-glow"><div class="stat-num">1031</div><div class="stat-label">每日监控板块</div></div>
+      <div class="stat-item jump border-glow"><div class="stat-num">5</div><div class="stat-label">AI 技能认证</div></div>
+      <div class="stat-item jump border-glow"><div class="stat-num">55s</div><div class="stat-label">独立剪辑成片</div></div>
+    </div>
+  </div>
+
+  <div class="section" id="timeline">
+    <div class="section-title anim"><span class="ch">成</span><span class="ch">长</span><span class="ch">历</span><span class="ch">程</span></div>
+    <div class="card border-glow">
+      <div class="timeline">
+        <div class="tl-item jump"><div class="tl-date">开始接触 AI</div><div class="tl-text">零基础自学 Vibecoding，探索 AI 工具链</div></div>
+        <div class="tl-item jump"><div class="tl-date">持续进阶</div><div class="tl-text">拿下科大讯飞 Prompt / RAG / 智能体 / 微调四张认证 + 阿里人工智能训练师认证</div></div>
+        <div class="tl-item jump"><div class="tl-date">独立实战</div><div class="tl-text">搭建 A 股资金流自动化、Agent 工作流、个人网站等项目</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="skills">
+    <div class="section-title anim"><span class="ch">专</span><span class="ch">业</span><span class="ch">技</span><span class="ch">能</span></div>
+
+    <div style="margin-bottom:20px">
+      <h3 style="font-size:17px;color:#e8e8e8;margin-bottom:12px;font-weight:600">&#x1F4C4; 证书</h3>
+      <div class="cert-grid">
+        <a class="cert-card border-glow" href="科大讯飞prompt工程师认证.png" target="_blank">
+          <img class="cert-thumb jump wide" src="thumb_prompt.jpg" width="400" height="281" loading="lazy" alt="科大讯飞 Prompt 工程师认证">
+          <div class="cert-label jump">科大讯飞 Prompt 工程师认证</div>
+        </a>
+        <a class="cert-card border-glow" href="科大讯飞RAG工程师认证.png" target="_blank">
+          <img class="cert-thumb jump wide" src="thumb_rag.jpg" width="400" height="281" loading="lazy" alt="科大讯飞 RAG 工程师认证">
+          <div class="cert-label jump">科大讯飞 RAG 工程师认证</div>
+        </a>
+        <a class="cert-card border-glow" href="科大讯飞智能体工程师认证.png" target="_blank">
+          <img class="cert-thumb jump wide" src="thumb_agent.jpg" width="400" height="281" loading="lazy" alt="科大讯飞 智能体工程师认证">
+          <div class="cert-label jump">科大讯飞 智能体工程师认证</div>
+        </a>
+        <a class="cert-card border-glow" href="科大讯飞微调工程师认证.png" target="_blank">
+          <img class="cert-thumb jump wide" src="thumb_finetune.jpg" width="400" height="281" loading="lazy" alt="科大讯飞 微调工程师认证">
+          <div class="cert-label jump">科大讯飞 微调工程师认证</div>
+        </a>
+        <a class="cert-card border-glow" href="阿里人工智能训练师认证.jpg" target="_blank">
+          <img class="cert-thumb jump wide" src="thumb_ali.jpg" width="400" height="283" loading="lazy" alt="阿里人工智能训练师认证">
+          <div class="cert-label jump">阿里人工智能训练师认证</div>
+        </a>
+      </div>
+    </div>
+
+    <div style="margin-bottom:20px">
+      <h3 style="font-size:17px;color:#e8e8e8;margin-bottom:10px;font-weight:600">&#x1F6E0; 技能</h3>
+      <div class="skill-grid">
+        <div class="skill-card border-glow"><h4 class="jump">网站开发</h4><p>HTML / CSS / 静态站点搭建，能独立完成个人网站和项目展示页</p></div>
+        <div class="skill-card border-glow"><h4 class="jump">Agent 工作流</h4><p>使用 Coze / WorkBuddy / IMA 搭建智能体，连接微信与知识库</p></div>
+        <div class="skill-card border-glow"><h4 class="jump">数据采集</h4><p>Python 自动采集东方财富公开 API，每日抓取 1031 个 A 股板块 × 18 项资金流指标，定时任务无人值守运行</p></div>
+      </div>
+      <div class="tag-cloud">
+        <span class="tag jump">Python</span><span class="tag jump">HTML / CSS</span><span class="tag jump">Coze</span><span class="tag jump">WorkBuddy</span><span class="tag jump">IMA</span><span class="tag jump">Prompt 工程</span><span class="tag jump">RAG</span><span class="tag jump">智能体</span><span class="tag jump">微调</span><span class="tag jump">剪映剪辑</span>
+      </div>
+    </div>
+
+    <div>
+      <h3 style="font-size:17px;color:#e8e8e8;margin-bottom:10px;font-weight:600">&#x1F3A8; 项目展示</h3>
+      <div class="showcase-grid">
+        <a class="showcase-card border-glow" href="birthday-website.png" target="_blank">
+          <img class="showcase-thumb jump wide" src="birthday-website.png" width="1908" height="908" loading="lazy" alt="生日祝福网站">
+          <div class="showcase-body"><h4 class="jump">生日祝福网站</h4><p>为朋友定制的专属生日页，纯 HTML/CSS/JS 零依赖，含倒计时、留言墙、照片墙等 5 个互动模块，手机/电脑自适应</p></div>
+        </a>
+        <a class="showcase-card border-glow" href="a-share-data.png" target="_blank">
+          <img class="showcase-thumb jump wide" src="a-share-data.png" width="913" height="556" loading="lazy" alt="A股数据采集">
+          <div class="showcase-body"><h4 class="jump">A 股数据采集</h4><p>全自动板块资金流监控：每日采集行业/概念/地域 1031 个板块 × 18 项资金流指标，工作日 20:00 定时自动运行，累计沉淀 9 个交易日 9200+ 条数据，自动产出 TOP15 日报与跨日趋势汇总</p></div>
+        </a>
+        <a class="showcase-card border-glow" href="ppe-search.png" target="_blank">
+          <img class="showcase-thumb jump wide" src="ppe-search.png" width="1919" height="904" loading="lazy" alt="PPE文献查询">
+          <div class="showcase-body"><h4 class="jump">PPE 文献查询</h4><p>聚合 6 个学术检索源的哲学·政治·经济学文献一站式检索站，无需逐个打开知网 / JSTOR / Google Scholar</p></div>
+        </a>
+        <div class="video-card border-glow">
+          <video controls preload="none" poster="video-editing.jpg" playsinline>
+            <source src="8月18日投资.mp4" type="video/mp4">
+            您的浏览器不支持视频播放，请<a href="8月18日投资.mp4" target="_blank">点击下载观看</a>
+          </video>
+          <div class="showcase-body"><h4 class="jump">视频剪辑 · 成果演示</h4><p>投资类短视频策划、脚本写作、剪辑与配音全流程，独立产出 10 条以内成片 · 点击播放（55 秒）</p></div>
+        </div>
+        <a class="showcase-card border-glow" href="#">
+          <div class="showcase-body"><h4 class="jump">&#x1F9E0; 个人知识库搭建</h4><p>基于 IMA + Coze 的个人知识管理系统</p></div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="contact">
+    <div class="section-title anim"><span class="ch">联</span><span class="ch">系</span><span class="ch">我</span></div>
+    <div class="card border-glow">
+      <div class="intro-grid">
+        <div class="intro-item jump"><div class="intro-icon icon-male">&#9742;</div>电话：<a href="tel:18798087195" style="color:inherit;text-decoration:none;border-bottom:1px dashed var(--text-light)">18798087195</a></div>
+        <div class="intro-item jump"><div class="intro-icon icon-code">&#x1F517;</div>微信：<span class="copyable" data-copy="Alan_gsy" title="点击复制">Alan_gsy</span></div>
+        <div class="intro-item jump"><div class="intro-icon icon-social">&#x1F3A5;</div>抖音：<span class="copyable" data-copy="84788445138" title="点击复制">84788445138</span></div>
+      </div>
+      <p style="font-size:13px;color:var(--text-light);margin-top:12px">微信号与抖音号支持点击复制，电话可直接拨打。</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 管思宇 &nbsp;|&nbsp; 用 AI 和代码探索世界 &nbsp;|&nbsp; <a href="#contact">联系我</a></p>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="关闭预览">&#x2715;</button>
+  <img class="lightbox-img" alt="图片预览">
+  <div class="lightbox-caption"></div>
+  <div class="lightbox-hint">点击图片或空白处关闭，或按 ESC</div>
+  <a class="lightbox-origin" href="#" target="_blank" rel="noopener">在新标签打开原图 &#x2197;</a>
+</div>
+
+<style>
+.copyable{cursor:pointer;border-bottom:1px dashed var(--text-light);transition:color .15s}
+.copyable:hover{color:var(--terracotta)}
+.lightbox{position:fixed;top:0;left:0;right:0;bottom:0;z-index:1000;background:rgba(0,0,0,.94);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;padding:20px;opacity:0;transition:opacity .2s}
+.lightbox.show{opacity:1}
+.lightbox[hidden]{display:none}
+.lightbox-img{max-width:94vw;max-height:76vh;object-fit:contain;border-radius:8px;box-shadow:0 10px 60px rgba(0,0,0,.7);opacity:.15;transition:opacity .25s;cursor:pointer}
+.lightbox-img.loaded{opacity:1}
+.lightbox-close{position:absolute;top:14px;right:18px;width:44px;height:44px;border:none;background:rgba(255,255,255,.1);color:#fff;font-size:24px;line-height:1;border-radius:50%;cursor:pointer;transition:background .15s;z-index:1}
+.lightbox-close:hover{background:rgba(255,255,255,.25)}
+.lightbox-caption{color:#e8e8e8;font-size:15px;text-align:center;max-width:90vw}
+.lightbox-hint{color:#8a8a8a;font-size:12px;text-align:center}
+.lightbox-origin{color:var(--terracotta);font-size:13px;text-decoration:none;border-bottom:1px dashed currentColor;padding-bottom:1px}
+.lightbox-origin:hover{color:#7ee0d6}
+</style>
+<script>
+document.addEventListener('click',function(e){
+  var el=e.target.closest('.copyable');
+  if(!el)return;
+  var text=el.getAttribute('data-copy');
+  var done=function(){
+    var old=el.textContent;
+    el.textContent='已复制 ✓';
+    setTimeout(function(){el.textContent=old;},1200);
+  };
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(done).catch(function(){
+      fallbackCopy(text);done();
+    });
+  }else{
+    fallbackCopy(text);done();
+  }
+  function fallbackCopy(t){
+    var ta=document.createElement('textarea');
+    ta.value=t;ta.style.position='fixed';ta.style.opacity='0';
+    document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');}catch(err){}
+    document.body.removeChild(ta);
+  }
+});
+</script>
+<script>
+(function(){
+  /* 标题逐个弹跳：进入视口时触发 */
+  var titleEls=[].slice.call(document.querySelectorAll('.section-title:not(.anim)'));
+  function inView(el){
+    var r=el.getBoundingClientRect();
+    return r.top<window.innerHeight-40&&r.bottom>0;
+  }
+  function check(){
+    titleEls=titleEls.filter(function(t){
+      if(inView(t)){t.classList.add('anim');return false;}
+      return true;
+    });
+    if(!titleEls.length)window.removeEventListener('scroll',check);
+  }
+  window.addEventListener('scroll',check);
+  check();
+})();
+</script>
+<script>
+(function(){
+  /* 滚动闪现：向下滚动时，未显现的元素瞬时向上弹入并淡入 */
+  var els=[].slice.call(document.querySelectorAll('.jump'));
+  var vh=window.innerHeight;
+  function hasRevealed(el){return el.classList.contains('bump');}
+  function inView(el){
+    var r=el.getBoundingClientRect();
+    return r.top<vh&&r.bottom>0;
+  }
+  /* 元素刚被看到且尚未显现 → 触发闪现 */
+  function scan(){
+    els.forEach(function(el){
+      if(!hasRevealed(el)&&inView(el))el.classList.add('bump');
+    });
+  }
+  /* 每次滚动都重扫，让滚动经过的新元素闪现 */
+  window.addEventListener('scroll',function(){
+    var y=window.scrollY;
+    /* 只在下滑时触发 */
+    if(y>window._lastY){scan();}
+    window._lastY=y;
+  },{passive:true});
+  scan();
+})();
+</script>
+<script>
+(function(){
+  /* 导航滚动高亮 */
+  var navLinks=[].slice.call(document.querySelectorAll('.nav-links a'));
+  var secs=navLinks.map(function(a){return document.getElementById(a.getAttribute('href').slice(1));});
+  var ticking=false;
+  function setActive(){
+    ticking=false;
+    var y=window.scrollY+100;
+    var cur=secs[0];
+    secs.forEach(function(s){if(s&&s.offsetTop<=y)cur=s;});
+    var id=cur?cur.id:'';
+    navLinks.forEach(function(a){
+      a.classList.toggle('active',a.getAttribute('href')==='#'+id);
+    });
+  }
+  window.addEventListener('scroll',function(){
+    if(!ticking){ticking=true;requestAnimationFrame(setActive);}
+  });
+  window.addEventListener('resize',setActive);
+  setActive();
+})();
+</script>
+<script>
+(function(){
+  var lb=document.getElementById('lightbox');
+  if(!lb)return;
+  var img=lb.querySelector('.lightbox-img');
+  var cap=lb.querySelector('.lightbox-caption');
+  var ori=lb.querySelector('.lightbox-origin');
+  /* 图片加载完成才从半透明淡入到全亮 */
+  img.addEventListener('load',function(){img.classList.add('loaded');});
+  img.addEventListener('error',function(){img.classList.add('loaded');});
+  function open(src,alt,href){
+    img.classList.remove('loaded');
+    img.src=src;
+    cap.textContent=alt||'';
+    ori.href=href;
+    lb.hidden=false;
+    void lb.offsetWidth; /* 强制重排以触发淡入 */
+    requestAnimationFrame(function(){lb.classList.add('show');});
+  }
+  function close(){
+    lb.classList.remove('show');
+    setTimeout(function(){lb.hidden=true;},180);
+  }
+  document.querySelectorAll('a.cert-card,a.showcase-card').forEach(function(a){
+    var thumb=a.querySelector('img');
+    var href=a.getAttribute('href');
+    a.addEventListener('click',function(e){
+      /* 无原图（如知识库卡片）阻止跳转，其余进入灯箱预览 */
+      if(!thumb||!href||href==='#'){e.preventDefault();return;}
+      e.preventDefault();
+      open(href,thumb.alt||'',href);
+    });
+  });
+  /* 除"打开原图"链接外，点灯箱任意位置都关闭 */
+  lb.addEventListener('click',function(e){
+    if(ori.contains(e.target))return;
+    close();
+  });
+  lb.querySelector('.lightbox-close').addEventListener('click',close);
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&!lb.hidden)close();
+  });
+})();
+</script>
+</body>
+</html>
